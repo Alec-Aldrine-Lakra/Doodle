@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+.send-button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.user-badge {
+    border-radius: 50%;
+    background: #293E80;
+    color: white;
+    padding: 6px;
+    margin: 0 auto;
+    text-align: center;
+}

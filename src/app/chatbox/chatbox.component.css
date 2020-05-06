@@ -1,0 +1,37 @@
+.chatbox {
+    height: 93vh;
+    width: calc(100vw - 1000px);
+}
+.send-message {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.message-container{
+    background-color: white;
+    height: 70vh;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+app-message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.chatbox {
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.chat-header{
+    background-color: #8B4FF3;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 12px;
+}

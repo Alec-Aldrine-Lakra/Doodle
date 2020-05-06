@@ -1,0 +1,11 @@
+<div class="message" [class.fright]="checkUser()">
+    <div class="user-badge">
+        {{user | initials}}
+    </div>
+    <div [class.text-box]="!checkUser()" [class.user-textbox]="checkUser()">
+        {{text}}
+    </div>
+    <div class="timestamp">
+        {{timestamp}}
+    </div>
+</div>

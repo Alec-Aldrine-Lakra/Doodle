@@ -1,0 +1,15 @@
+<div class="chatbox">
+    <div class="chat-header">
+        Skribble Chatbox
+    </div>
+    <div class="message-container">
+        <ng-container  *ngFor="let message of messages;" >
+            <app-message [user]="message.user" [text]="message.text" [timestamp]="message.timestamp" [userId]="message.userId"></app-message>
+        </ng-container>
+            
+    </div>
+    <div class="send-message">
+        <input type="text" maxlength="80">
+        <button type="button" class="send-button">Send</button>
+    </div>
+</div>
